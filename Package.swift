@@ -1,3 +1,5 @@
+// swift-tools-version:5.0
+// The swift-tools-version declares the minimum version of Swift required to build this package.
 //
 //  Package.swift
 //  CDMarkdownKit
@@ -46,6 +48,5 @@ let package = Package(
             name: "CDMarkdownKit",
             path: "Source"
         )
-    ],
-    swiftLanguageVersions: [.v5])
+    ]
 )
